@@ -1,0 +1,68 @@
+.jumbotron{
+	background-image:url('../img/3.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:-100px -50px;
+	color:white;
+	margin-top:50px;
+	overflow:hidden;
+}
+.jumbotron img{
+	border:5px solid white;
+	box-shadow:5px 5px 5px gray;
+	border-radius:50px;
+}
+.jumbotron h2,p{
+	text-shadow:1px 1px 1px gray;
+}
+hr{
+	width:300px;
+	border-top:5px solid gray;
+}
+section{
+	min-height:400px;
+}
+.about p{
+	text-align:justify;
+}
+.pkiri{
+	opacity:0;
+	transform:translate(-20px,0) rotate(180deg);
+	transition:3s;
+}
+.pkanan{
+	opacity:0;
+	transform:translate(20px,0) rotate(-180deg);
+	transition:3s;
+}
+.pkanan_muncul{
+	opacity:1;
+	transform:translate(0,0);
+}
+.pkiri_muncul{
+	opacity:1;
+	transform:translate(0,0);
+}
+.portfolio{
+	background-color:#eee;
+}
+.portfolio img{
+	height:200px;
+	width:100%;
+}
+.thumbnail{
+	opacity:0;
+	transform:translate(0, -20px);
+	transition:1s;
+}
+.muncul_thumbnail{
+	opacity:1;
+	transform:translate(0,0);
+}
+footer{
+	height:100px;
+	width:100%;
+	background:brown;
+	margin-top:20px;
+	color:white;
+}
